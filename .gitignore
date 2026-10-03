@@ -1,0 +1,38 @@
+# Environment variables
+.env
+.env.local
+*.env
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local databases and temporary data
+data/uploads/*
+data/audio/*
+data/*.db
+data/*.sqlite3
+!data/uploads/.gitkeep
+!data/audio/.gitkeep
+!data/govreport_samples/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Virtual environment
+venv/
+env/
+.venv/

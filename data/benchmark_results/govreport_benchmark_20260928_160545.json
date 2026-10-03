@@ -1,0 +1,33 @@
+{
+  "benchmark_name": "GovReport Long Document Summarization Benchmark",
+  "dataset_name": "ccdv/govreport-summarization",
+  "timestamp_utc": "2026-09-28T16:05:45.790414Z",
+  "total_documents_requested": 3,
+  "total_documents_processed": 3,
+  "successful_evaluations": 0,
+  "failed_evaluations": 3,
+  "tts_approval_rate": 0.0,
+  "total_time_seconds": 3.66,
+  "average_metrics": {},
+  "results": [],
+  "failed_cases": [
+    {
+      "index": 1,
+      "document_id": "GovReport-TEST-001",
+      "title": "GovReport Benchmark Document 1",
+      "error": "'charmap' codec can't encode character '\\u2713' in position 32: character maps to <undefined>"
+    },
+    {
+      "index": 2,
+      "document_id": "GovReport-TEST-002",
+      "title": "GovReport Benchmark Document 2",
+      "error": "'charmap' codec can't encode character '\\u2713' in position 32: character maps to <undefined>"
+    },
+    {
+      "index": 3,
+      "document_id": "GovReport-TEST-003",
+      "title": "GovReport Benchmark Document 3",
+      "error": "'charmap' codec can't encode character '\\u2713' in position 32: character maps to <undefined>"
+    }
+  ]
+}
